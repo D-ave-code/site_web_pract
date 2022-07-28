@@ -1,0 +1,53 @@
+.cont-inicio-seis{
+    display: flex;
+    width: 70%;
+    height: 100vh;
+    margin: auto; 
+}
+.cont-des-seis{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+}
+.conten-text-seis{
+    width: 60%;
+}
+.conten-text-seis h1{
+    width: 100%;
+    font-family: Oswald, sans-serif;
+    font-weight: 700;
+    color: #a5b154;
+}
+.conten-text-seis p{
+    font-size: 1.3em;
+}
+.conten-text-seis button{
+    width: 50%;
+    height: 50px;
+    background: #000;
+    color: #ffff;
+    font-size: 1.3em;
+}
+.cont-imagen-seis{
+    display: flex;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.circulo-seis{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: calc(50% - 150px);
+    left: -150px;
+    background: #a5b154 ;
+    border-radius: 500px;
+}
+.cont-imagen-seis img{
+    width: 80%;
+    height: 90%;
+}

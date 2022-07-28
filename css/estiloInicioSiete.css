@@ -1,0 +1,53 @@
+.cont-inicio-siente{
+    width: 100%;
+    height: 100vh;
+    background: url(../images/dfgrey-min.jpg);
+}
+.con-seccion-siente{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.con-text-siente{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 80%;
+    background: #111;
+    color: #ffff;
+    text-align: center;
+}
+.cont-titulo-siente{
+    height: 20%;
+    margin: 60px;
+}
+.con-text-siente h1{
+    font-family: Oswald,sans-serif;
+    font-size: 3rem;
+}
+.con-text-siente p{
+    opacity: 0.5;
+}
+.cont-contac-siete{
+    width: 50%;
+    height: 30%;
+}
+.cont-contac-siete h2{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.25rem;
+    letter-spacing: 4px;
+    margin: 20px auto 0;
+    opacity: 0.5;
+}
+.cont-contac-siete h3{
+    font-size: 1.125rem;
+    margin: 20px auto 0;
+}
+.cont-contac-siete svg{
+    width: 50px;
+    height: 50px;
+    fill: #fff;
+}

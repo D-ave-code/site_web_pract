@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+     font-family: "Roboto", "Arial","sans-serif";
+}
+.cont-inicio{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #e0e5eb;
+}
+.contain-imagen{
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+.contain-imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contain-tajetas{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    justify-content: center;    
+    width: 100%;
+    height: 50%;
+    top: 25%;
+}
+.contain-titulo{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 10%;
+    text-align: center;
+    color: #ffffff;
+}
+.contain-titulo h1{
+    font-size: 6rem;
+    font-family: Oswald, sans-serif;
+    text-decoration: none solid rgb(17, 17, 17);
+}
+.card{
+    width: 15rem;
+    margin: 2em;
+    padding: 1em;
+}
+.icono-d{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    background:#a5b154;
+    border-radius:50px ;
+   fill: #ffffff;
+   padding: 19px;
+}
